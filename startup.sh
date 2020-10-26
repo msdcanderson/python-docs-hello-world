@@ -1,1 +1,1 @@
-gunicorn --bind=0.0.0.0 --timeout 600 --chdir src app:create_app
+gunicorn --bind=0.0.0.0 --timeout 600 --chdir src "app:create_app()"
